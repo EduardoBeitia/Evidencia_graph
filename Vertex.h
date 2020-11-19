@@ -157,6 +157,7 @@ list<Vertex> Vertex::Queue(){
     return adj;
 }
 
+//Complejidad O(N^2)
 Vertex Vertex::getMax(vector<Vertex> arreglo){
      Vertex aux;
 
