@@ -215,6 +215,8 @@ void Graph::BFS(Vertex v){
     
 }
 
+//Buscar vertices que sean puertos 
+//Complejidad O(N)
 void Graph::puertoMax(){
     
     vector<Vertex> puertos;
@@ -231,6 +233,8 @@ void Graph::puertoMax(){
 
 }
 
+//Buscar vertices que sean IPs 
+//Complejidad O(N)
 void Graph::IPMax(){
 
     vector<Vertex> IPs;
